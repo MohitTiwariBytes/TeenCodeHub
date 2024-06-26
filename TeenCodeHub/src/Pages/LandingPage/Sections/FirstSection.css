@@ -10,6 +10,9 @@
   justify-content: center;
   align-items: center;
   font-family: "Clash Display", sans-serif;
+  flex-direction: column;
+  gap: 36px;
+  margin-top: 45px;
 }
 
 .first-section h1 {
@@ -20,6 +23,26 @@
 
 z {
   color: goldenrod;
+}
+
+.text {
+  overflow: hidden;
+}
+
+#lets-go-btn {
+  padding: 14px;
+  background: rgb(33, 33, 223);
+  color: white;
+  border: 1px solid rgb(33, 33, 223);
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Clash Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 @media (max-width: 579px) {
