@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Clash Display", sans-serif;
+}
+
+.first-section h1 {
+  width: 1000px;
+  font-size: 40px;
+  text-align: center;
+}
+
+z {
+  color: goldenrod;
+}
+
+@media (max-width: 579px) {
+  .first-section h1 {
+    font-size: 30px;
+  }
+}
