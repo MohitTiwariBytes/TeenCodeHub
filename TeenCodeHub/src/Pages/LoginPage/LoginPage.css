@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+
+  font-family: "Clash Display", sans-serif;
 }
 
 html,
@@ -8,14 +10,27 @@ body,
 #root {
   height: 100%;
   width: 100%;
+
+  font-family: "Clash Display", sans-serif;
 }
 
 .mainLoginPage {
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.left {
+.LoginPageRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+}
+
+.LoginPageLeft {
   width: 40%;
   height: 100%;
   background: rgb(36, 36, 202);
@@ -25,7 +40,69 @@ body,
   flex-direction: column;
 }
 
-.left img {
+.LoginPageLeft img {
   margin-left: -23px;
   margin-top: -140px;
+  height: 300px;
+  width: 300px;
+}
+
+.img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.textLoginPage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.formParent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 25px;
+  background: rgb(240, 240, 240);
+  padding: 154px;
+  border-radius: 24px;
+}
+
+.form input {
+  padding: 24px;
+  width: 300px;
+  border-radius: 13px;
+  border: 1px solid black;
+}
+
+.form button {
+  padding: 14px;
+  background: rgb(33, 33, 223);
+  color: white;
+  border: 1px solid rgb(33, 33, 223);
+  border-radius: 5px;
+  letter-spacing: 2px;
+  width: 300px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Clash Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
